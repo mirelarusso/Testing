@@ -1,0 +1,165 @@
+body {
+    font : 103%/170% arial;
+    color : #dcf5f7;
+    background : url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1488218031/hello-PIGALCOHOL0217_0.jpg?itok=4Hrw86DY) top;
+    text-shadow: 1px 1px #352424;
+    }
+    p {
+    font : 83%/150% verdana, arial;
+    margin-top : 0;
+    text-align : justify;
+    }
+    h3 {
+    font : normal normal 100% verdana, arial;
+    letter-spacing : 1px;
+    margin-bottom : 0;
+    }
+    a:link {
+        font-weight : bold;
+        text-decoration : none;
+        color : rgb(82, 167, 189);
+        }
+    a:visited {
+        font-weight : bold;
+        text-decoration : none;
+        color : rgb(172, 240, 223);
+        }
+    a:hover, a:active {
+    text-decoration : none;
+    color : rgb(79, 188, 192);
+    border-bottom : 1px dotted;
+    }
+    header h1 {
+    display: center;
+    }
+    header h2 {
+    display : center;
+    }
+    .summary {
+    position : absolute;
+    top : 190px;
+    left : 26px;
+    width : 178px;
+    height : 150px;
+    color : rgb(245, 218, 136);
+    overflow : auto;
+    }
+    .summary p {
+    font : 83%/133% verdana, arial;
+    text-align : left;
+    letter-spacing : 1px;
+    }
+    .preamble {
+        position : absolute;
+        top : 183px;
+        left : 255px;
+        width : 270px;
+        height : 200px;
+        overflow : auto;
+        }
+    .supporting {
+    position : absolute;
+    top : 566px;
+    left : 255px;
+    width : 670px;
+    }
+    footer {
+    text-align : center;
+    margin-bottom : 11px;
+    font : 83%/150% verdana, arial;
+    }
+    footer a:link, footer a:visited {
+    margin-right : 20px;
+    }
+    
+    .explanation, .participation, .benefits, .requirements {
+    margin-bottom : 22px;
+    }
+    .sidebar {
+    background : url(bg_nav-left.gif) top left repeat-y transparent;
+    position : absolute;
+    top : 330px;
+    left : 0;
+    width : 256px;
+    margin-top : -4px;
+    z-index : 1;
+    }
+    .sidebar .wrapper {
+    font : 82%/10% verdana, arial;
+    margin : 0;
+    background : url(bg_leftnav_bottom.jpg) bottom left no-repeat transparent;
+    }
+    .sidebar h3.select {
+    background : url(bg_hdr_select-a-design.gif) top left no-repeat transparent;
+    width : 256px;
+    height : 26px;
+    margin-top : 0;
+    margin-bottom : 11px;
+    margin-left : 0;
+    margin-right : 0;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .sidebar h3.archives {
+    background : url(bg_hdr_archives.gif) top left no-repeat transparent;
+    width : 256px;
+    height : 26px;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .sidebar h3.resources {
+    background : url(bg_hdr_resources.gif) top left no-repeat;
+    width : 256px;
+    height : 26px;
+    text-indent : 100%;
+    white-space : nowrap;
+    overflow : hidden;
+    }
+    .design-selection, .design-archives {
+    margin-bottom : 20px;
+    }
+    .design-selection h3, .design-archives h3, .zen-resources h3 {
+    margin-bottom : 110px;
+    }
+    .design-selection ul li, .design-archives ul li, .zen-resources ul li {
+    margin-left : 28px;
+    width : 160px;
+    }
+    .sidebar ul {
+    margin : 0;
+    padding : 0;
+    }
+    .sidebar li {
+    line-height : 2.5ex;
+    list-style-type : none;
+    background : url(cr1.gif) top center no-repeat transparent;
+    display : block;
+    padding-top : 5px;
+    margin-bottom : 5px;
+    }
+    .sidebar li a:link {
+    color : rgb(146, 226, 219);
+    }
+    .sidebar li a:visited {
+    color : rgb(166, 240, 227);
+    }
+    .design-selection ul a {
+    display : block;
+    font-weight : bold;
+    margin-bottom : -2px;
+    }
+    .design-selection ul a.designer-name {
+    display : inline;
+    font-weight : normal;
+    }
+    .design-selection ul a:hover {
+    color : rgb(38, 75, 110);
+    text-decoration : none;
+    border : none;
+    }
+    .zen-resources {
+    background : url(bg_leftnav_bottom.jpg) bottom left no-repeat transparent;
+    padding-bottom : 165px;
+    }
