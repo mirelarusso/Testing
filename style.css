@@ -1,4 +1,5 @@
 
+
 p:not(.fancy) {
     color: orange;
 }
@@ -18,10 +19,14 @@ body :not(.div) {
 }
 h1 {
     text-align: center;
-    color: purple;
+    color: rgb(78, 22, 233);
 }
 h2 {
     text-align: center;
-    color: blueviolet;
+    color: rgb(127, 53, 224);
+}
+h3 {
+    text-align: center;
+    color: rgb(199, 59, 212);
 }
 /* Why are all underlined if specify only :not(p) to be ? */
